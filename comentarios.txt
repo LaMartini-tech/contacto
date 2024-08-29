@@ -1,0 +1,25 @@
+Comentarios
+HTML:
+
+<!DOCTYPE html>: Declara el tipo de documento.
+<html lang="es">: Define el idioma del contenido.
+<meta charset="UTF-8">: Especifica la codificación de caracteres.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura la vista para dispositivos móviles.
+<link rel="stylesheet" href="styles.css">: Enlaza el archivo CSS.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">: Enlaza la biblioteca de iconos de Font Awesome.
+<section id="contacto">: Define la sección de contacto.
+<form>: Comienza el formulario.
+<div class="form-group">: Agrupa los elementos del formulario.
+<label for="nombre"><i class="fas fa-user"></i> Nombre:</label>: Etiqueta para el campo de nombre con un icono.
+<input type="text" id="nombre" name="nombre" required>: Campo de entrada para el nombre.
+<button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>: Botón de envío con un icono.
+CSS:
+
+* { margin: 0; padding: 0; box-sizing: border-box; }: Reseteo de márgenes y rellenos predeterminados.
+body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f4; color: #333; }: Estilo general para el cuerpo de la página.
+section { padding: 2rem; margin: 1rem 0; background: #fff; border-radius: 5px; }: Estilo para las secciones.
+#contacto { max-width: 600px; margin: 0 auto; background: #f9f9f9; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }: Estilo específico para la sección de contacto.
+.form-group { margin-bottom: 1.5rem; }: Estilo para el grupo de formulario.
+.form-group label { display: flex; align-items: center; margin-bottom: 0.5rem; color: #333; }: Estilo para las etiquetas del formulario.
+button { display: flex; align-items: center; justify-content: center; padding: 0.75rem; background: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; }: Estilo para el botón de envío.
+Este código crea un formulario de contacto estilizado con iconos usando Font Awesome y CSS. Puedes personalizar los estilos y el contenido según tus necesidades.
